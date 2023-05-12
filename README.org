@@ -12,9 +12,10 @@ OpenAI just released its [[https://openai.com/blog/introducing-chatgpt-and-whisp
 ** Installation
 *** Dependency
 #+begin_src shell
-pip install sexpdata==0.0.3
-pip install epc
-pip install git+https://github.com/mmabrouk/chatgpt-wrapper
+pip3 install sexpdata==0.0.3
+pip3 install epc
+pip3 install git+https://github.com/mmabrouk/chatgpt-wrapper
+export export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 chatgpt install
 #+end_src
 
@@ -58,7 +59,7 @@ dotspacemacs-additional-packages
 '(
   (chatgpt :location (recipe
                       :fetcher github
-                      :repo "joshcho/ChatGPT.el"))
+                      :repo "andrwj/ChatGPT.el"))
   ;; other additional packages...
   )
 #+end_src
