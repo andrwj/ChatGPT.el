@@ -20,7 +20,31 @@ chatgpt install
 #+end_src
 
 This will prompt you to log in with your browser.
+#+begin_src shell
+Install mode: The API backend is already configured.
 
+Creating database schema for: sqlite:////Users/andrwj/.local/share/chatgpt-wrapper/profiles/default/storage.db
+
+Database schema installed
+
+No users in database. Creating one...
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                          Welcome to the ChatGPT API shell!                                                                                           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+This shell interacts directly with the ChatGPT API, and stores conversations and messages in the configured database.
+
+Before you can start using the shell, you must create a new user.
+
+Enter username (no spaces): andrwj
+Enter email: user-id@....
+Enter password (leave blank for passwordless login):
+User successfully registered.
+
+Login successful.
+
+#+end_src
 NOTE: If you encounter any problems, please submit an issue or see [[https://github.com/mmabrouk/chatgpt-wrapper][chatgpt-wrapper]].
 
 *** [[https://github.com/radian-software/straight.el][Straight]]
