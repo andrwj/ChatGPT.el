@@ -15,7 +15,7 @@ OpenAI just released its [[https://openai.com/blog/introducing-chatgpt-and-whisp
 pip3 install sexpdata==0.0.3
 pip3 install epc
 pip3 install git+https://github.com/mmabrouk/chatgpt-wrapper
-export export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 chatgpt install
 #+end_src
 
